@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kirim Resep</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Kirim Resep Anda</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="kategori.html">Kategori</a>
+      <a href="tentang.html">Tentang Kami</a>
+    </nav>
+  </header>
+  <main>
+    <form id="formResep">
+      <label for="nama">Nama Resep:</label>
+      <input type="text" id="nama" required>
+      
+      <label for="bahan">Bahan-bahan:</label>
+      <textarea id="bahan" required></textarea>
+      
+      <label for="langkah">Langkah-langkah:</label>
+      <textarea id="langkah" required></textarea>
+      
+      <label for="gambar">Link Gambar (opsional):</label>
+      <input type="url" id="gambar">
+      
+      <button type="submit">Kirim Resep</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2025 RasaNusantara</p>
+  </footer>
+</body>
+</html>
